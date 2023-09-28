@@ -77,7 +77,14 @@
     }
     .container__imagem--transparente{
         display: none;
-        
     }
-
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+    .opcoes__botao:checked~.lista-menu{
+        display: block;
+    }
+    .opcoes__botao{
+        display: none;
+    }
   }
